@@ -13,13 +13,24 @@ For any questions email mark.gardner@sydney.edu.au
 ```
 pip install platipy
 ```
--Install the [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) module.
+-Clone the [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository.
 
 ## Acquiring the data
 The data for this project was downloaded from the cancer imaging archive [(TCIA)](https://www.cancerimagingarchive.net/). The database used was the HNSCC database which requires permission to download the data from. The list of patient data that was acquired is found in the [PatientList.txt](https://github.com/ACRF-Image-X-Institute/MarkerlessHNGTVTracking/PatientList.txt) file.
 
 ## How to generate training/testing data
 
+Run 'GenerateMultipleVolumes.m' with the variable 'BaseFile' as the directory where the HNSCC data is saved. 
+
+Run 'GenerateDRRs.m', with the input file as the directory for each patient. 
+
 ## How to train and test the network
+
+Navigate to the pix2pix repository and train the network using:
+
+```
+python train.py --dataroot <Location of Training data just created> --load_size 550 --crop_size 512 
+python test.py --dataroot <Location of Training data just created> --load_size 512 --crop_size 512 
+```
 
 ## How to analyse and generate test results

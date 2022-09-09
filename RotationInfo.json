@@ -1,0 +1,11 @@
+{
+	"name":"HNSCC-01-0001",
+	"input_directory":"Z:\\HNSCC\\HNSCC-01-0001\\12-05-1998-RT SIMULATION-43582/dicom",
+	"axes":[[-1,0,0],[0,0,-1],[0,-1,0]],
+	"angles":[2.5,3.2,3.1],
+	"point_of_rotation":[[74,217,252],[80,222,252],[66,214,252]],
+	"intermediate_directory":"Z:\\HNSCC\\HNSCC-01-0001\\12-05-1998-RT SIMULATION-43582/DeepLearning",
+	"output_directory":"Z:\\HNSCC\\HNSCC-01-0001\\12-05-1998-RT SIMULATION-43582/DeepLearning",
+	"gaussian_smooth":0,
+	"coordinates_cutoff":[[69,282,259],[51,170,259]]
+}
