@@ -48,5 +48,5 @@ More info on the pix2pix repository can be found [here](https://github.com/junya
 ## How to analyse and generate test results
 
 - Run 'DeepLearningRandEvaluation.m' for each patient with the inputvariable the directory where the images from test.py were saved
-- Run 'DeepLearningSummaryMultiVol.m' to combine the results for all patients. 
+- Run 'DeepLearningSummaryMultiVol.m' to combine the results for all patients. Input should be a cell array with the location of the output from the 'DeepLearningRandEvaluation.m' file as each index in the input.
 - Plot the results by running the jupyter notebooks worksheet 'TumoutMotionPlots.ipynb'
