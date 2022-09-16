@@ -34,7 +34,7 @@ The data for this project was downloaded from the cancer imaging archive [(TCIA)
 
 In a command prompt run visdom using the command 
 ```
-python -m visdom
+python -m visdom.server
 ```
 
 In a seperate command prompt navigate to the pix2pix repository and train the network using:
