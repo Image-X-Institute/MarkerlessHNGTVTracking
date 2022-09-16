@@ -22,7 +22,7 @@ pip install visdom
 - Add the path RTK applications folder the system enviroment path. 
 
 ## Acquiring the data
-The data for this project was downloaded from the cancer imaging archive [(TCIA)](https://www.cancerimagingarchive.net/). The database used was the HNSCC database which requires permission to download the data from. The list of patient data that was acquired is found in the [PatientList.txt](https://github.com/ACRF-Image-X-Institute/MarkerlessHNGTVTracking/PatientList.txt) file.
+The data for this project was downloaded from the cancer imaging archive [(TCIA)](https://www.cancerimagingarchive.net/). The database used was the HNSCC database which requires permission to download the data from. The list of patient data that was acquired is found in the [PatientList.txt](https://github.com/ACRF-Image-X-Institute/MarkerlessHNGTVTracking/blob/main/PatientList.txt) file.
 
 ## How to generate training/testing data
 
